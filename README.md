@@ -33,9 +33,9 @@ Create an API with these endpoints:
 1. [POST] */courses/add*: add a new *Course*.
 2. [POST] */students/add*: add a new *Student* (must have a *Course*).
 3. [GET] */courses*: show a list of *Courses* objects.
-4. [GET] */courses/<int>*: show a specific *Course*, including the list of *Students*.
+4. [GET] */courses/:int*: show a specific *Course*, including the list of *Students*.
 5. [GET] */students*: show a list of *Students*.
-6. [GET] */students/<int>*: show a specific *Student*, including the *Course* information (object).
+6. [GET] */students/:int*: show a specific *Student*, including the *Course* information (object).
 
 ## Hints
   
