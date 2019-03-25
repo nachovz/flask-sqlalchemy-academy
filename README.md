@@ -36,6 +36,7 @@ Create an API with these endpoints:
 4. [GET] */courses/:int* - Show a specific *Course*, including the list of *Students*.
 5. [GET] */students* - Show a list of *Students*.
 6. [GET] */students/:int* - Show a specific *Student*, including the *Course* information (object).
+7. [PUT] */students/:int* - Change a specific *Student* to a different *Course*
 
 ## Hints
   
