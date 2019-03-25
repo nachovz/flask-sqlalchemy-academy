@@ -98,7 +98,11 @@ class Course(db.Model):
         students = []
         for s in self.students:
             students.append(s.to_dict())
-        return { "id": self.id, "name": self.name, "students": students }
+        return { 
+          "id": self.id, 
+          "name": self.name, 
+          "students": students 
+        }
   
   
 class Students(db.Model):
@@ -112,7 +116,13 @@ class Students(db.Model):
         return 'Student: %s' % self.first_name
   
     def to_dict(self):
-        return { "id": self.id, "first_name": self.first_name, "last_name": self.last_name, "course": self.course_id,"age": self.age }
+        return { 
+          "id": self.id, 
+          "first_name": self.first_name, 
+          "last_name": self.last_name, 
+          "course": self.course_id,
+          "age": self.age 
+        }
   
 ```
   
