@@ -72,7 +72,7 @@ class Students(db.Model):
     
 ```
   
-Remember to run the migration in order to create/upgrade the SQLite Database.
+[Remember to run the migration in order to create/upgrade the SQLite Database.](https://flask-migrate.readthedocs.io/en/latest/)
 
 ### Serialization
   
